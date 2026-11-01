@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "G1WjyCyARzU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lobin\\OneDrive\\Рабочий стол\\Kaspersky\\ЛобинА.И._Тестовое задание_SDETC#\\UserManagement.API\\UserManagement.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lobin\\.nuget\\packages\\fluentvalidation\\12.2.0\\fluentvalidation.12.2.0.nupkg.sha512",
+    "C:\\Users\\lobin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.2.0\\fluentvalidation.dependencyinjectionextensions.12.2.0.nupkg.sha512",
+    "C:\\Users\\lobin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

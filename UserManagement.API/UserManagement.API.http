@@ -1,0 +1,27 @@
+@HostAddress = http://localhost:5000
+
+### 1. Create User (POST)
+POST {{HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "countryIsoCode": "RU",
+  "locale": "ru-RU"
+}
+
+### 2. Get User by ID (GET)
+GET {{HostAddress}}/api/users/00000000-0000-0000-0000-000000000001
+Accept: application/json
+
+### 3. Update User (PUT)
+PUT {{HostAddress}}/api/users/00000000-0000-0000-0000-000000000001
+Content-Type: application/json
+
+{
+  "countryIsoCode": "US",
+  "locale": "en-US"
+}
+
+### 4. Get All Users (GET with Pagination)
+GET {{HostAddress}}/api/users?page=1&pageSize=10
+Accept: application/json
